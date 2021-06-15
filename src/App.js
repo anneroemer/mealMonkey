@@ -3,10 +3,14 @@ import Greeting from "./components/Greeting";
 import Category from "./components/Category";
 import Subjectheader from './components/Subjectheader';
 import Restaurants from './components/Restaurants';
+import Counter from "./components/Counter";
+import TheMeal from './components/TheMeal';
 
 function App() {
   return (
     <>
+      <TheMeal />
+      <Counter />
       <Greeting name="Akila"/>
       <div className="categories">
         <Category imageurl="https://source.unsplash.com/featured/?food" categoryh3="Offers" />
